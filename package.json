@@ -1,0 +1,22 @@
+{
+  "name": "football",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "npx nodemon server/server.js -w server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
